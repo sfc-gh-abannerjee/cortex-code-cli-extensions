@@ -1,0 +1,20 @@
+# Testing artifacts
+*.test.md
+*_TEST.md
+test-*.sh
+coverage-*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
