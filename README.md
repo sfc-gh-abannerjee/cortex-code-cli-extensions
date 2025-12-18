@@ -3,7 +3,7 @@
 **A curated collection of custom skills and agents that extend [Snowflake Cortex Code CLI](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code) capabilities.**
 
 **Author:** Abhinav Bannerjee (abhinav.bannerjee@snowflake.com)  
-**Maintained by:** Snowflake Sales Engineering
+**Maintained by:** Snowflake Solutions Engineering
 
 ---
 
