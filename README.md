@@ -1,6 +1,6 @@
 # Cortex Code CLI Extensions
 
-**A curated collection of custom skills and agents that extend [Snowflake Cortex Code CLI](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code) capabilities.**
+**A curated collection of custom skills and agents that extend [Snowflake Cortex Code CLI](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/cortex-code-cli) capabilities.**
 
 **Author:** Abhinav Bannerjee (abhinav.bannerjee@snowflake.com)  
 **Maintained by:** Snowflake Solutions Engineering
@@ -252,9 +252,9 @@ cortex
 
 ## 📖 Resources
 
-- [Cortex Code Documentation](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code)
-- [Cortex Code Skills Guide](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code/skills)
-- [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) - Full reference documentation
+- [Cortex Code CLI Documentation](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/cortex-code-cli)
+- [Cortex Code Skills Guide](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/skills)
+- [Comprehensive Extensions Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) - Full reference documentation
 
 ---
 
@@ -275,4 +275,4 @@ Internal use within Snowflake. See your employment agreement for details.
 
 **Happy coding! 🚀**
 
-*Built with ❤️ by Snowflake Sales Engineering*
+*Built with ❤️ by Snowflake Solution Engineering*
