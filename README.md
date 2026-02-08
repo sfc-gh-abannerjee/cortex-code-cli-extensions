@@ -39,6 +39,12 @@ cortex
 | **[snowflake-performance-analysis](./skills/snowflake-performance-analysis/)** | ✅ Available | Analyze query performance, warehouse sizing, memory spilling, partition pruning, and cost optimization |
 | **[multi-env-deployment](./skills/multi-env-deployment/)** | ✅ Available | Safely deploy Snowflake artifacts (Streamlit, SPCS, UDFs, tables) across dev/staging/prod environments |
 
+### Hooks
+
+| Hook | Status | Description |
+|------|--------|-------------|
+| **[git-push-link](./hooks/git-push-link/)** | ✅ Available | Automatically displays repository URLs after successful `git push` commands for easy sharing |
+
 ### Agents
 
 | Agent | Status | Description |
@@ -118,8 +124,9 @@ cortex
 ### Prerequisites
 - [Cortex Code CLI](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code) installed
 - Git (for cloning)
+- `jq` (for hooks) - `brew install jq` on macOS
 
-### Installation Methods
+### Installing Skills
 
 **Method 1: Personal Installation (All Projects)**
 ```bash
@@ -142,6 +149,22 @@ git commit -m "Add <skill-name> for team"
 # Link for easier updates during development
 ln -s $(pwd)/skills/<skill-name> ~/.snowflake/cortex/skills/<skill-name>
 ```
+
+### Installing Hooks
+
+Hooks require both the script and a `hooks.json` configuration.
+
+```bash
+# 1. Copy hook script
+mkdir -p ~/.snowflake/cortex/hooks
+cp hooks/<hook-name>/<hook-name>.sh ~/.snowflake/cortex/hooks/
+chmod +x ~/.snowflake/cortex/hooks/<hook-name>.sh
+
+# 2. Configure hooks.json (see hook's README for specific config)
+# Edit ~/.snowflake/cortex/hooks.json
+```
+
+See individual hook READMEs for complete configuration.
 
 **See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for detailed installation instructions and priority order.**
 
