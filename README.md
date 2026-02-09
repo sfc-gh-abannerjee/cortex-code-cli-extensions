@@ -1,6 +1,6 @@
 # Cortex Code CLI Extensions
 
-**A curated collection of custom skills and agents that extend [Snowflake Cortex Code CLI](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/cortex-code-cli) capabilities.**
+**A curated collection of custom skills and agents that extend [Snowflake Cortex Code CLI](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code) capabilities.**
 
 **Author:** Abhinav Bannerjee (abhinav.bannerjee@snowflake.com)  
 **Maintained by:** Snowflake Solutions Engineering
@@ -281,7 +281,7 @@ cortex
 
 ## 📝 License
 
-Internal use within Snowflake. See your employment agreement for details.
+Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ---
 

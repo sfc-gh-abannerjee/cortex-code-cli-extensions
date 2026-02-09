@@ -363,4 +363,4 @@ Found a bug or want to add support for a new ecosystem? Contributions welcome!
 
 ## License
 
-[Your license here]
+Apache License 2.0. See [LICENSE](../../LICENSE) for details.

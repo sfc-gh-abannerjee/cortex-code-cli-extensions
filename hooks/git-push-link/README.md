@@ -271,4 +271,4 @@ Found a bug or have an improvement?
 
 ## License
 
-Internal use within Snowflake. See your employment agreement for details.
+Apache License 2.0. See [LICENSE](../../LICENSE) for details.
