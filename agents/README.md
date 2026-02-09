@@ -15,8 +15,6 @@ Expert agent for Snowpark Container Services deployment and troubleshooting.
 - Log analysis and debugging
 - Cost estimation
 
-**See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for full documentation when released.**
-
 ---
 
 ## Agent vs. Skill
@@ -33,4 +31,4 @@ Expert agent for Snowpark Container Services deployment and troubleshooting.
 - Stateless operations
 - Pre-commit checks, validation, formatting
 
-**See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for detailed comparison.**
+See the [Cortex Code documentation](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code) for more details.

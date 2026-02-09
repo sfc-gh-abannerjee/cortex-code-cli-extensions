@@ -55,12 +55,7 @@ cortex
 
 ## 📚 Documentation
 
-- **[Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing)** - Complete reference covering:
-  - Skill creation best practices and design patterns
-  - Installation methods (personal vs. project-level)
-  - Troubleshooting common issues
-  - When to create skills vs. agents
-  - Advanced topics (progressive loading, explicit registration)
+- **[Cortex Code Skills Guide](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code/skills)** - Official Snowflake documentation
 
 - **Individual Skill Documentation** - Each skill directory contains:
   - `README.md` - User-facing documentation with examples, installation, and usage
@@ -166,13 +161,11 @@ chmod +x ~/.snowflake/cortex/hooks/<hook-name>.sh
 
 See individual hook READMEs for complete configuration.
 
-**See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for detailed installation instructions and priority order.**
-
 ---
 
 ## 🧩 Creating Your Own Extensions
 
-Want to create a custom skill or agent? See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for:
+See the [Cortex Code Skills Guide](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code/skills) for:
 
 - **Skill creation best practices**
 - **When to create a skill vs. agent**
@@ -269,24 +262,20 @@ cortex
 > /skill <skill-name>
 ```
 
-**See [Comprehensive Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) for detailed debugging steps.**
-
 ---
 
 ## 📖 Resources
 
-- [Cortex Code CLI Documentation](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/cortex-code-cli)
-- [Cortex Code Skills Guide](https://docs.snowflake.com/LIMITEDACCESS/cortex-code/skills)
-- [Comprehensive Extensions Guide (Google Doc)](https://docs.google.com/document/d/1-g_vJSC8XOcANfd8Dww6hr00C01Bg-9697LCzL1tV1I/edit?usp=sharing) - Full reference documentation
+- [Cortex Code Documentation](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code)
+- [Cortex Code Skills Guide](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-code/skills)
 
 ---
 
 ## 📧 Support
 
 **Questions or issues?**
-- Slack: @abhinav.bannerjee
 - Email: abhinav.bannerjee@snowflake.com
-- GitLab: Open an issue in this repository
+- GitHub: Open an issue in this repository
 
 ---
 
